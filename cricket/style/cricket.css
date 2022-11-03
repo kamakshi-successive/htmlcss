@@ -1,51 +1,79 @@
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    border: 2px solid lightgray;
-    padding: 0 20px;
-    padding-bottom: 0;
+  max-width: 1200px;
+  margin: 0 auto;
+  border: 2px solid lightgray;
+  padding: 20px 10px;
+  position: relative;
 }
 .check1 {
-    text-align: center;
+  text-align: center;
+}
+.check1 h3 {
+  font-weight: 700;
+  color: #535359;
+}
+.check2 .batting,
+.check1 p {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #b3b3b6;
 }
 .check2 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #a2dd71;
 }
-.check3{
-    background: lightgrey;
-    margin: 0px -20px;
-    padding: 0 20px;
-}    
-
-img{
-    width: 90px;
-    height: 90px;
-    border-radius: 20px;
+.check2 .score {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #b3b3b6;
 }
-.check4 {
-    font-weight: 600;
-    font-size: 18px;
-    color: grey;
+.batting-score {
+  color: green;
 }
-.check5{
-    font-size: 38px;
-    font-weight: 600;
-    color: darkgray;
-    margin: 0;
+.check2 img {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
 }
-.check5 p {
-    margin:0
+table {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
 }
-.grey {
-    font-size: 34px;
-    margin-top: 0px;
-    color: lightgrey;
-    font-weight: unset;
-
+td {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #747373;
 }
-.check8 {
-    font-size: 38px;
-    margin: 0;
+th {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #c6c5c5;
+}
+.player {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f7f6f6;
+  padding: 8px;
+  margin-top: 10px;
+}
+.player .inner-player {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+}
+.player .inner-player:first-child {
+  width: 40%;
+}
+.footer {
+  background-color: #f7f6f6;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-top: 20px;
 }
