@@ -1,0 +1,51 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 2px solid lightgray;
+    padding: 0 20px;
+    padding-bottom: 0;
+}
+.check1 {
+    text-align: center;
+}
+.check2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.check3{
+    background: lightgrey;
+    margin: 0px -20px;
+    padding: 0 20px;
+}    
+
+img{
+    width: 90px;
+    height: 90px;
+    border-radius: 20px;
+}
+.check4 {
+    font-weight: 600;
+    font-size: 18px;
+    color: grey;
+}
+.check5{
+    font-size: 38px;
+    font-weight: 600;
+    color: darkgray;
+    margin: 0;
+}
+.check5 p {
+    margin:0
+}
+.grey {
+    font-size: 34px;
+    margin-top: 0px;
+    color: lightgrey;
+    font-weight: unset;
+
+}
+.check8 {
+    font-size: 38px;
+    margin: 0;
+}
